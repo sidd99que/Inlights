@@ -1,0 +1,22 @@
+# import { createClient } from '@supabase/supabase-js';
+
+# const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+# const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
+
+# export const supabase = createClient(supabaseUrl, supabaseKey);
+
+# Supabase configuration
+NEXT_PUBLIC_SUPABASE_URL=https://vojlmorrvhglsjiobcqx.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvamxtb3JydmhnbHNqaW9iY3F4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzQxMDI1OTUsImV4cCI6MjA0OTY3ODU5NX0.GodQQ68snFX7njxYdP4-T1319QjqEpTcQfCeBSFUOco
+
+# If you're using Supabase with additional services like JWT, you may also have:
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZvamxtb3JydmhnbHNqaW9iY3F4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNDEwMjU5NSwiZXhwIjoyMDQ5Njc4NTk1fQ.K9y11ZRxFB-NfjX21Ko9L1asg9W7Qd0moW9WiQxLS4s
+NEXTAUTH_SECRET=5a51f4fe6b1c566bd5dc8ff6a1e76c8e4ac1c015aea6ade69255318ab4870b5e
+
+
+NEXTAUTH_URL=http://localhost:3000
+
+
+NEXT_PUBLIC_INSTAGRAM_APP_ID475288185173014
+INSTAGRAM_APP_SECRET=0fead17782134c910a7e7b53c353fca1
+NEXT_PUBLIC_INSTAGRAM_REDIRECT_URI=http://localhost:3000/profile
